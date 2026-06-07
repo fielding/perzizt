@@ -1,2 +1,5 @@
 .zig-cache
 zig-out
+
+# compiled binaries / renamed build artifacts left in tree
+secureclaw
